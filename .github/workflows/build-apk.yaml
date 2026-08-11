@@ -28,11 +28,10 @@ jobs:
           key: ${{ runner.os }}-pub-${{ hashFiles('**/pubspec.yaml') }}
 
       - name: Set up Flutter
-      - uses: subosito/flutter-action@v2
+        uses: subosito/flutter-action@v2
         with:
-             channel: stable
-         flutter-version: '3.22.1' # ensures a concrete release if channel lookup fails
-         
+          flutter-version: '3.22.1' # pinned explicit version to avoid channel lookup failure
+
       - name: Install dependencies
         run: flutter pub get
 
