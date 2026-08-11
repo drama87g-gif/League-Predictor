@@ -30,7 +30,7 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: 'stable'
+          flutter-version: '3.22.1' # pinned explicit version to avoid channel lookup failure
 
       - name: Install dependencies
         run: flutter pub get
