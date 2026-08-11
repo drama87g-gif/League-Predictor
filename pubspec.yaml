@@ -1,0 +1,177 @@
+name: football_prediction
+version: 1.0.0+1
+publish_to: none
+description: Professional Football Prediction Platform
+
+environment:
+  sdk: ">=3.8.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ─────────────────────────────────────────────
+  # State Management
+  # ─────────────────────────────────────────────
+  bloc: ^9.2.1
+  flutter_bloc: ^9.1.1
+  equatable: ^2.0.7
+
+  # ─────────────────────────────────────────────
+  # Dependency Injection
+  # ─────────────────────────────────────────────
+  get_it: ^9.2.1
+  injectable: ^3.0.0
+
+  # ─────────────────────────────────────────────
+  # Navigation
+  # ─────────────────────────────────────────────
+  go_router: ^17.3.0
+
+  # ─────────────────────────────────────────────
+  # Firebase
+  # ─────────────────────────────────────────────
+  firebase_core: ^4.4.0
+  firebase_auth: ^6.5.6
+  cloud_firestore: ^6.7.1
+  firebase_messaging: ^16.4.3
+  firebase_storage: ^13.4.5
+  firebase_analytics: ^12.4.5
+  firebase_crashlytics: ^5.2.6
+  cloud_functions: ^6.3.5
+
+  # ─────────────────────────────────────────────
+  # Local Storage
+  # ─────────────────────────────────────────────
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.5.3
+
+  # ─────────────────────────────────────────────
+  # Networking
+  # ─────────────────────────────────────────────
+  dio: ^5.11.0
+  retrofit: ^4.9.2
+  connectivity_plus: ^6.1.4
+
+  # ─────────────────────────────────────────────
+  # UI / UX
+  # ─────────────────────────────────────────────
+  flutter_screenutil: ^5.9.3
+  shimmer: ^3.0.0
+  flutter_slidable: ^4.0.1
+  flutter_staggered_animations: ^1.1.1
+  confetti: ^0.8.0
+  fl_chart: ^1.1.1
+  cached_network_image: ^3.4.1
+  flutter_svg: ^2.2.3
+  lottie: ^3.3.1
+  google_fonts: ^6.3.2
+  flutter_animate: ^4.5.2
+  liquid_pull_to_refresh: ^3.0.1
+  sliding_up_panel: ^2.0.0+1
+  flutter_speed_dial: ^7.0.0
+  timeline_tile: ^2.0.0
+  percent_indicator: ^4.2.5
+  flutter_countdown_timer: ^4.1.0
+  qr_flutter: ^4.1.0
+  share_plus: ^12.0.1
+  url_launcher: ^6.3.2
+  image_picker: ^1.2.1
+
+  # ─────────────────────────────────────────────
+  # Authentication
+  # ─────────────────────────────────────────────
+  google_sign_in: ^7.2.0
+  sign_in_with_apple: ^8.1.0
+  local_auth: ^2.3.0
+
+  # ─────────────────────────────────────────────
+  # Serialization / Utilities
+  # ─────────────────────────────────────────────
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.12.0
+  dartz: ^0.10.1
+  logger: ^2.6.0
+  intl: ^0.20.2
+  uuid: ^4.5.1
+  timeago: ^3.7.1
+  collection: ^1.19.1
+
+  # ─────────────────────────────────────────────
+  # Maps & Location
+  # ─────────────────────────────────────────────
+  google_maps_flutter: ^2.13.1
+  geolocator: ^14.0.2
+
+  # ─────────────────────────────────────────────
+  # Payments
+  # ─────────────────────────────────────────────
+  purchases_flutter: ^9.10.6
+
+  # ─────────────────────────────────────────────
+  # Deep Linking
+  # ─────────────────────────────────────────────
+  uni_links: ^0.5.1
+
+  # ─────────────────────────────────────────────
+  # Notifications
+  # ─────────────────────────────────────────────
+  flutter_local_notifications: ^19.5.0
+
+  # ─────────────────────────────────────────────
+  # Animations
+  # ─────────────────────────────────────────────
+  animations: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # ─────────────────────────────────────────────
+  # Linting
+  # ─────────────────────────────────────────────
+  flutter_lints: ^6.0.0
+
+  # ─────────────────────────────────────────────
+  # Code Generation
+  # ─────────────────────────────────────────────
+  build_runner: ^2.15.3
+  injectable_generator: ^3.1.1
+  retrofit_generator: ^10.2.8
+  hive_generator_plus: ^4.0.2
+  freezed: ^3.2.5
+  json_serializable: ^6.14.0
+
+  # ─────────────────────────────────────────────
+  # Testing
+  # ─────────────────────────────────────────────
+  mockito: ^5.5.1
+  bloc_test: ^10.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+    - assets/fonts/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600

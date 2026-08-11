@@ -1,0 +1,5 @@
+Do you know360sports app, in the world cup there was a prediction competition event, i wan an app that resembles it, except its work on Spanish league Laliga, French leagues , English league premier league , Italian league elcalcio, and all other famous league .
+
+football-data.org
+FOOTBALL_DATA_API_KEY
+28abc76b23e74132b0dd6a9a28b9a61b
