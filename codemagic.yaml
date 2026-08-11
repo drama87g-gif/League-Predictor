@@ -56,4 +56,3 @@ cache_paths:
   - $FLUTTER_ROOT/.pub-cache
   - ~/.pub-cache
   - ~/.gradle/caches
-```
