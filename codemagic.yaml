@@ -2,7 +2,6 @@ workflows:
 flutter-workflow:
 name: Build Android & iOS
 
-```
 triggering:
   events:
     - push
